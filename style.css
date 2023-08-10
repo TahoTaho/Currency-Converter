@@ -5,11 +5,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    gap: 50px;
 }
 
 .dropdown {
-    min-width: 15em;
+    width: 100%;
     position: relative;
     margin: 2em;
 }
@@ -90,3 +90,19 @@ body {
     display: block;
     opacity: 1;
 }
+
+input {
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.currency {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+
