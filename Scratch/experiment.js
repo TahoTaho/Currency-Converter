@@ -1,3 +1,4 @@
+
 const baseCurrencyOptions = document.getElementById('base-currency');
 const currenciesOptions = document.getElementById('currencies');
 const inputField1 = document.getElementById('input-field-1');
@@ -22,5 +23,13 @@ function getValue() {
     const userInput1 = parseInt(inputField1.value);
     convertCurrency(convertFrom, convertTo, userInput1);
 }
+
+
+
+
+
+
+
+
 
 
