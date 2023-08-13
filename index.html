@@ -8,20 +8,29 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <input type="text" id="input-field-1" onInput="getValue()">
-    <select id="base-currency" onclick="getValue()">
-        <option>USD</option>
-        <option>BGN</option>
-        <option>CZK</option>
-        <option>EUR</option>
-    </select>
 
-    <input type="text" id="input-field-2">
-    <select id="currencies" onclick="getValue()">
-        <option>PHP</option>
-        <option>JPY</option>
-        <option>BGN</option>
-        <option>EUR</option>
-    </select>
+    <h1>Currency Converter Using API</h1>
+    <div class="container">
+        <div class="content">
+            <input type="text" id="input-field-1" onInput="getValue()">
+            <select id="base-currency" onclick="getValue()">
+                <option>PHP</option>
+                <option>JPY</option>
+                <option>BGN</option>
+                <option>EUR</option>
+            </select>
+        </div>
+
+        <div class="content">
+            <input type="text" id="input-field-2">
+            <select id="currencies" onclick="getValue()">
+                <option>PHP</option>
+                <option>JPY</option>
+                <option>BGN</option>
+                <option>EUR</option>
+            </select>
+        </div>
+    </div>
+        
 </body>
 </html>
